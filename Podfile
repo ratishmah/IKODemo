@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+# use_frameworks!
+
+target 'IKODemo' do
+
+source 'https://github.com/forcedotcom/SalesforceMobileSDK-iOS-Specs.git' # need to be first
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+pod 'SalesforceSDKCore'
+pod 'SalesforceNetwork'
+pod 'SalesforceRestAPI'
+pod 'SmartStore'
+pod 'SmartSync'
+
+end
+
